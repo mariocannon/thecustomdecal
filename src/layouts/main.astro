@@ -1,7 +1,8 @@
 ---
 import Ecomcard from '../components/ecomcard.astro';
 import Navbar from '../components/navbar.astro';
-
+import Navbar2 from '../components/navbar2.astro';
+import Password from '../components/password.astro';
 
 export interface Props {
   title: string;
@@ -21,9 +22,8 @@ const { description, title }: Props = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<Navbar />
-        <Ecomcard />
-
+	
+<Password />
 
 	
 		
